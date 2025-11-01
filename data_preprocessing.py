@@ -2,7 +2,6 @@ import os
 import pandas as pd
 import functools as ft
 from more_itertools import sliced
-
 from load.cams_load import cams_read_file
 from load.create_grid import get_grid
 from load.era5_load import era_read_file
